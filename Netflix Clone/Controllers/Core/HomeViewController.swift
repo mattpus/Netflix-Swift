@@ -48,7 +48,7 @@ class HomeViewController: UIViewController {
         let heroView = HeroHeaderView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))
         homeFeedTable.tableHeaderView = heroView
         
-        fetchData()
+      
     }
     
     override func viewDidLayoutSubviews() {
